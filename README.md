@@ -1,7 +1,4 @@
-# Breast-Cancer-Diagnosis\
-\
-\
-\
+
 Manual breast cancer diagnosis by doctoes is a slow, laboring tasks, prone to errors. By using computer algorithms, the accuracy of the diagnonis can reach even 100%. Because of the efficiency of algorithmical detection, doctors in Thailand went on strike to protest the implementation of such an algorithm as they would lose an integral part of their job.\
 \
 The following algorithm uses XGBoost  and it has an accouracy of 97%.\
