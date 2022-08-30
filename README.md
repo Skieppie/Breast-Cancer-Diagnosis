@@ -76,7 +76,7 @@ score = ((2 * precision * xg_recall1) / (precision + xg_recall1)) / 100\
 print("Accuracy:", accuracy)\
 print("Precision:", precision)\
 print("Score:", score)\
-\
+
 ------------
 OUT:\
 ![out1](https://user-images.githubusercontent.com/99653642/187438014-42386d69-b5a9-4fe5-bce7-210db8800c20.png)
