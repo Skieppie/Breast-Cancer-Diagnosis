@@ -40,7 +40,6 @@ from sklearn.svm import SVC\
 from sklearn.model_selection import StratifiedKFold\
 from sklearn.feature_selection import RFECV\
 \
-# Create the RFE object and compute a cross-validated score.\
 svc = SVC(kernel='linear')\
 rfecv = RFECV(estimator=svc, step=1, cv=StratifiedKFold(2), scoring='accuracy')\
 rfecv.fit(x_train.values, y_train.values)\
